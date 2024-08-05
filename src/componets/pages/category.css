@@ -1,0 +1,31 @@
+.items_category{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   cursor: pointer;
+    font-size: 19px;
+    background-color: darkgrey;
+    padding: 30px;
+    border-radius: 72%;
+    color: rgba(28, 49, 63, 0.923);
+    --toastify-text-color-dark: pink;
+}
+
+.items_category:hover{
+    background-color: lightgrey;
+    color: black;
+    font-size: 20px;
+}
+.scroller{
+    height: 40px;
+    margin: auto;
+    display: -webkit-inline-box;
+    border-radius: 15px;
+}
+.carousel .control-dots {
+    position: absolute;
+    bottom: 0;
+    margin: -4px 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}

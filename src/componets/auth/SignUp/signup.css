@@ -1,0 +1,44 @@
+.h1heading{
+    text-align: center;
+    border: 1px solid;
+    width: 120px;
+    margin: auto;
+    height: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+    background: #80808040;
+    box-sizing: revert-layer;
+    overflow: hidden;
+}
+
+.lab_inp_box input{
+    height: 43px;
+    border: 1px solid;
+    border-radius: 15px;
+    text-align: center;
+    font-style: oblique;
+}
+
+.lab_inp_box label{
+    font-size: large;
+    font-family: emoji;
+}
+.sign-up-btn{
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.sign-up-btn:hover{
+    background-color: #1e1a1a4f;
+    color: black;   
+}
+.for_login_page{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+.for_login_page:hover{
+    
+    text-decoration: none;
+}

@@ -1,0 +1,62 @@
+.btn-div{
+    border:1px solid;
+    border-radius: 10px;
+    
+}
+.profile-links{
+    position:absolute;
+    box-shadow: 2px 2px 2px 1.7px rgba(128, 128, 128, 0.573);
+    top: 50px;
+    right: 165px;
+     background-color: rgba(213, 231, 231, 0.59);
+     width: 180px;
+     height: 200px;
+     border: 1px solid grey;
+     border-radius: 20px;
+     
+}
+.profile-links::before{
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid rgba(0, 0, 0, 0.362);
+}
+.btn-login{
+    margin: 4px;
+    border: 1px solid;
+    padding-left: 15px;
+    padding-right: 13px;
+    border-radius: 9px;
+    font-family: fangsong;
+    background-color: #3b3beb;
+    cursor: pointer;
+    height: 34px;
+}
+.btn-login-1{
+    background-color: rgb(23, 19, 19); 
+    color: white;
+}
+
+.btn-login-1:hover{
+    background-color: #3b3beb !important;
+    height: 35px !important;
+    color: white;
+}
+
+.btn-login:hover{
+    background-color: rgb(23, 19, 19);
+    color: white;
+    transition: background-color 0.3s ease;
+}
+.profile-link{
+    text-decoration: underline;
+
+}
+.profile-link:hover{
+    color: #3b3beb;
+    text-decoration: none;
+}

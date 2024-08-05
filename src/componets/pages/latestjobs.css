@@ -1,0 +1,10 @@
+.bagesinfo{
+    border-radius: 15px;
+   cursor: pointer;
+}
+
+.bagesinfo:hover{
+      height: 20px;
+      
+
+}
