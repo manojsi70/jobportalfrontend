@@ -10,7 +10,7 @@ function LatestJobs() {
             Opening
          </h1>
          {/* all jobs cards */}
-         <div className="grid grid-cols-3 my-5 gap-4">
+         <div className="latest_jobs grid grid-cols-3 my-5 gap-4">
             {randomsjobs.slice(0,6).map((items, i) => (
                <LatestJobsCard />
             ))}

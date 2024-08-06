@@ -15,10 +15,10 @@ const category = [
 function CategoryCorousel() {
    return (
       <>
-         <div className="my-3 flex flex-wrap text-center m-auto ">
-            <Carousel className="scroller justify-center text-center max-w-[50%] m-auto bg-slate-200 my-5 h-0">
+         <div className="category_div my-3 flex text-center m-auto ">
+            <Carousel className="Carousel scroller justify-center text-center max-w-[50%] m-auto bg-slate-200 my-5 h-0">
                {category.map((item, index) => (
-                  <div className=" " key={index}>
+                  <div className="" key={index}>
                      <span className="items_category">{item}</span>
                   </div>
                ))}

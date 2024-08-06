@@ -18,10 +18,10 @@ function HeroSection() {
                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                Cupiditate, maiores adipisci? Possimus exercitationem fugiat aut
             </p>
-            <div className="flex w-[40%] shadow-lg border-gray-200 pl-3 rounded-full items-center gap-4 mx-auto ">
-               <input
+            <div className="input_hearo_section flex w-[40%] shadow-lg border-gray-200 pl-3 rounded-full items-center gap-4 mx-auto ">
+               <input 
                   type="text"
-                  className="h-[40px] w-[90%] outline-none"
+                  className=" h-[40px] w-[90%] outline-none"
                   placeholder="Find your dream jobs"
                />
                <button className="search-btn w-[10%] bg-[#3b3beb] h-[40px]">

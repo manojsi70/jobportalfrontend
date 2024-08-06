@@ -6,6 +6,7 @@
 .all-files-home {
    width: 100%;
    height: 100vh;
+   overflow-x: hidden;
 }
 .table_header {
    height: 40px;
@@ -14,4 +15,24 @@
    border-left: none !important;
    border-right: none !important;
    overflow: auto;
+}
+
+@media only screen and (max-width: 600px) {
+   .input_hearo_section {
+      width: 80%;
+      overflow-y: hidden;
+      
+   }
+   .latest_jobs{
+      display:flex;
+      flex-direction: column;
+      margin: 20px;
+      width: 80%;
+      outline: none;
+   }
+}
+@media only screen and (max-width: 600px) {
+   .Carousel {
+      width: 80%;
+   }
 }
