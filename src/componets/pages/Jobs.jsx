@@ -3,7 +3,7 @@ import Navbar from "../navbar/Navbar";
 import Job from "./Job";
 import FilterCard from "./FilterCard";
 
-const JobArray = [1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+const JobArray = [1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,2,1,4];
 function Jobs() {
    return (
       <div>
@@ -17,7 +17,7 @@ function Jobs() {
                   <span> Job not Found</span>
                ) : (
                   <div className="flex-1 h-[88vh] overflow-auto pb-5">
-                    <div className="grid grid-cols-3 gap-4">
+                    <div className="jobs_list grid grid-cols-3 gap-4">
                        
                     {
                       JobArray.map((items, i)=>(
