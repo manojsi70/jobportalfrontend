@@ -6,7 +6,7 @@ function HeroSection() {
       <div className="text-center">
          <div className="flex flex-col gap-4">
             <span className="mx-auto">
-               <h2 className="px-4 py-3 rounded-full bg-gray-100 text-[#d335359d] font-medium">
+               <h2 className="No1JobHunt px-4 py-3 rounded-full bg-gray-100 text-[#d335359d] font-medium">
                   No. 1 Job Hunt Website
                </h2>
             </span>

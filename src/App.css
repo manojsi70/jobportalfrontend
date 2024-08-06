@@ -16,15 +16,23 @@
    border-right: none !important;
    overflow: auto;
 }
+@media only screen and (max-width: 430px) {
+   .navbarlinks {
+      gap: 0;
+   }
+   .No1JobHunt {
+      width: 100%;
+      margin-top: 50px;
+   }
+}
 
 @media only screen and (max-width: 600px) {
    .input_hearo_section {
       width: 80%;
       overflow-y: hidden;
-      
    }
-   .latest_jobs{
-      display:flex;
+   .latest_jobs {
+      display: flex;
       flex-direction: column;
       margin: 20px;
       width: 80%;
